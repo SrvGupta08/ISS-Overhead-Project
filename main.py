@@ -1,5 +1,4 @@
-''' Check the current location of International Space System (ISS) and if it is near your location during the night time then send yourself an
-Email to look up. '''
+''' Check the current location of International Space System (ISS) using APIs, date time and SMTP library and if it is near your location during the night time then send yourself an Email to look up in the sky. '''
 
 import requests
 from datetime import datetime
@@ -7,8 +6,8 @@ import smtplib
 
 MY_LATITUDE = 22.585905
 MY_LONGITUDE = 88.326520
-MY_EMAIL = "guptasourav0809@gmail.com"
-MY_PASSWORD = "yyirccpuofuaveoo"
+MY_EMAIL = "sourav@gmail.com"
+MY_PASSWORD = "shagdjhasgdjh"
 
 time_now = datetime.now()
 
